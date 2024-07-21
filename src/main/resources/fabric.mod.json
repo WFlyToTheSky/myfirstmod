@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "myfirstmod",
+	"version": "${version}",
+	"name": "My First Mod",
+	"description": "This is WFlyToTheSky's first Fabric mod!",
+	"authors": [
+		"WFlyToTheSky"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/myfirstmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.wflytothesky.myfirstmod.MyFirstMod"
+		],
+		"client": [
+			"net.wflytothesky.myfirstmod.MyFirstModClient"
+		],
+		"fabric-datagen": [
+			"net.wflytothesky.myfirstmod.MyFirstModDataGenerator"
+		]
+	},
+	"mixins": [
+		"myfirstmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
