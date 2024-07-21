@@ -12,9 +12,11 @@ import net.wflytothesky.myfirstmod.MyFirstMod;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
+        entries.add(RAW_RUBY);
     }
 
 
