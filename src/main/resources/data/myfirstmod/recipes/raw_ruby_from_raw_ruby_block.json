@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "catagory": "misc",
+  "category": "misc",
   "ingredients": [
     {
       "item": "myfirstmod:raw_ruby_block"
