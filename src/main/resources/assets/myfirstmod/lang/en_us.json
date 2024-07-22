@@ -2,5 +2,7 @@
   "item.myfirstmod.ruby": "Ruby",
   "item.myfirstmod.raw_ruby": "Raw Ruby",
 
+  "block.myfirstmod.ruby_block": "Block of Ruby",
+
   "itemgroup.ruby": "Ruby Group"
 }
