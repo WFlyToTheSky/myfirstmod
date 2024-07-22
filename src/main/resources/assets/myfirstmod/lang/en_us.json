@@ -1,4 +1,6 @@
 {
   "item.myfirstmod.ruby": "Ruby",
-  "item.myfirstmod.raw_ruby": "Raw Ruby"
+  "item.myfirstmod.raw_ruby": "Raw Ruby",
+
+  "itemgroup.ruby": "Ruby Group"
 }
