@@ -3,11 +3,11 @@
   "catagory": "misc",
   "ingredients": [
     {
-      "item": "myfirstmod:ruby_block"
+      "item": "myfirstmod:raw_ruby_block"
     }
   ],
   "result": {
-    "item": "myfirstmod:ruby",
+    "item": "myfirstmod:raw_ruby",
     "count": 9
   }
 }

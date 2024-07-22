@@ -8,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "myfirstmod:ruby"
+      "item": "myfirstmod:raw_ruby"
     }
   },
   "result": {
-    "item": "myfirstmod:ruby_block"
+    "item": "myfirstmod:raw_ruby_block"
   }
 }
