@@ -1,10 +1,13 @@
 {
   "item.myfirstmod.ruby": "Ruby",
   "item.myfirstmod.raw_ruby": "Raw Ruby",
+
   "item.myfirstmod.metal_detector": "Metal Detector",
 
   "block.myfirstmod.ruby_block": "Block of Ruby",
   "block.myfirstmod.raw_ruby_block": "Block of Raw Ruby",
+
+  "block.myfirstmod.sound_block": "Sound Block",
 
   "block.myfirstmod.ruby_ore": "Ruby Ore",
   "block.myfirstmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
