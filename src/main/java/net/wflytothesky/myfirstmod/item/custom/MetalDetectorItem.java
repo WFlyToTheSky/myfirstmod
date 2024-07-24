@@ -15,6 +15,7 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.wflytothesky.myfirstmod.block.ModBlocks;
+import net.wflytothesky.myfirstmod.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -42,8 +43,6 @@ public class MetalDetectorItem extends Item {
                     // player.sendMessage(Text.literal(String.valueOf((volume))), true);
                     player.playSound(SoundEvents.BLOCK_NOTE_BLOCK_CHIME.value(), SoundCategory.PLAYERS, volume, 1f);
 
-                    context.getWorld().playSound(player, positionClicked, SoundEvents.BLOCK_NOTE_BLOCK_CHIME.value(), SoundCategory.PLAYERS, i, 1f);
-
                     break;
                 }
             }
@@ -68,7 +67,7 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.isOf(Blocks.COAL_ORE) || state.isOf(Blocks.COPPER_ORE) || state.isOf(Blocks.GOLD_ORE) || state.isOf(Blocks.REDSTONE_ORE) || state.isOf(Blocks.LAPIS_ORE) || state.isOf(ModBlocks.RUBY_ORE) || state.isOf(Blocks.DIAMOND_ORE) || state.isOf(Blocks.EMERALD_ORE) || state.isOf(Blocks.DEEPSLATE_COAL_ORE) || state.isOf(Blocks.DEEPSLATE_COPPER_ORE) || state.isOf(Blocks.DEEPSLATE_GOLD_ORE) || state.isOf(Blocks.DEEPSLATE_REDSTONE_ORE) || state.isOf(Blocks.DEEPSLATE_LAPIS_ORE) || state.isOf(ModBlocks.DEEPSLATE_RUBY_ORE) || state.isOf(Blocks.DEEPSLATE_DIAMOND_ORE) || state.isOf(Blocks.DEEPSLATE_EMERALD_ORE);
+        return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
     }
 
     @Override
