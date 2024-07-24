@@ -8,6 +8,8 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
@@ -27,26 +29,32 @@ public class MetalDetectorItem extends Item {
         if(!context.getWorld().isClient()) {
             BlockPos positionClicked = context.getBlockPos();
             PlayerEntity player = context.getPlayer();
-            boolean foundBlock = false;
+            //boolean foundBlock = false;
 
             for (int i = 0; i <= positionClicked.getY() + 64; i++) {
                 BlockState state= context.getWorld().getBlockState(positionClicked.down(i));
 
                 if(isValuableBlock(state)) {
-                    outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
-                    foundBlock = true;
+                  //  outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
+                    // foundBlock = true;
+
+                    float volume = (100 / (float) i) / 50;
+                    // player.sendMessage(Text.literal(String.valueOf((volume))), true);
+                    player.playSound(SoundEvents.BLOCK_NOTE_BLOCK_CHIME.value(), SoundCategory.PLAYERS, volume, 1f);
 
                     break;
                 }
             }
 
 
-            if(!foundBlock) {
+/*            if(!foundBlock) {
                 player.sendMessage(Text.literal("No Valuables Found!"));
             }
+*/
 
-            context.getStack().damage(1, context.getPlayer(),
-                    playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
+
+           // context.getStack().damage(1, context.getPlayer(),
+             //       playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
         }
 
         return ActionResult.SUCCESS;
