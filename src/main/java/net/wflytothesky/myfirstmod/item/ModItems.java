@@ -12,11 +12,19 @@ import net.wflytothesky.myfirstmod.MyFirstMod;
 import net.wflytothesky.myfirstmod.item.custom.MetalDetectorItem;
 
 public class ModItems {
+
+    // Normal Items
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
+    // Food Items
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
 
+    // Fuel Items
+    public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",
+            new Item(new FabricItemSettings()));
+
+    // Advanced Items
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage((64))));
 

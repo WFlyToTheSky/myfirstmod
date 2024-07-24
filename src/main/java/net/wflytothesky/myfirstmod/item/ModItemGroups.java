@@ -15,21 +15,30 @@ public class ModItemGroups {
             new Identifier(MyFirstMod.MOD_ID, "ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+                        // Normal Items
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
 
+                        // Normal Blocks
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
+                        // Ores
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
 
+                        // Food Items
                         entries.add(ModItems.TOMATO);
 
+                        // Fuel Items
+                        entries.add(ModItems.COAL_BRIQUETTE);
+
+                        // Advanced Blocks
                         entries.add(ModBlocks.SOUND_BLOCK);
 
+                        // Advanced Items
                         entries.add(ModItems.METAL_DETECTOR);
 
                     }).build());

@@ -2,6 +2,7 @@ package net.wflytothesky.myfirstmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.wflytothesky.myfirstmod.block.ModBlocks;
 import net.wflytothesky.myfirstmod.item.ModItemGroups;
 import net.wflytothesky.myfirstmod.item.ModItems;
@@ -18,5 +19,7 @@ public class MyFirstMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }
