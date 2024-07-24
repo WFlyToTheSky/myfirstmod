@@ -42,6 +42,8 @@ public class MetalDetectorItem extends Item {
                     // player.sendMessage(Text.literal(String.valueOf((volume))), true);
                     player.playSound(SoundEvents.BLOCK_NOTE_BLOCK_CHIME.value(), SoundCategory.PLAYERS, volume, 1f);
 
+                    context.getWorld().playSound(player, positionClicked, SoundEvents.BLOCK_NOTE_BLOCK_CHIME.value(), SoundCategory.PLAYERS, i, 1f);
+
                     break;
                 }
             }
@@ -49,6 +51,7 @@ public class MetalDetectorItem extends Item {
 
 /*            if(!foundBlock) {
                 player.sendMessage(Text.literal("No Valuables Found!"));
+                context.getWorld().playSound(player, positionClicked, SoundEvents.BLOCK_NOTE_BLOCK_SNARE.value(), SoundCategory.PLAYERS, 1f, 1f);
             }
 */
 
