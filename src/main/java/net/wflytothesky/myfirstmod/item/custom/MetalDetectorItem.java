@@ -3,13 +3,19 @@ package net.wflytothesky.myfirstmod.item.custom;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import net.wflytothesky.myfirstmod.block.ModBlocks;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class MetalDetectorItem extends Item {
     public MetalDetectorItem(Settings settings) {
@@ -52,5 +58,11 @@ public class MetalDetectorItem extends Item {
 
     private boolean isValuableBlock(BlockState state) {
         return state.isOf(Blocks.COAL_ORE) || state.isOf(Blocks.COPPER_ORE) || state.isOf(Blocks.GOLD_ORE) || state.isOf(Blocks.REDSTONE_ORE) || state.isOf(Blocks.LAPIS_ORE) || state.isOf(ModBlocks.RUBY_ORE) || state.isOf(Blocks.DIAMOND_ORE) || state.isOf(Blocks.EMERALD_ORE) || state.isOf(Blocks.DEEPSLATE_COAL_ORE) || state.isOf(Blocks.DEEPSLATE_COPPER_ORE) || state.isOf(Blocks.DEEPSLATE_GOLD_ORE) || state.isOf(Blocks.DEEPSLATE_REDSTONE_ORE) || state.isOf(Blocks.DEEPSLATE_LAPIS_ORE) || state.isOf(ModBlocks.DEEPSLATE_RUBY_ORE) || state.isOf(Blocks.DEEPSLATE_DIAMOND_ORE) || state.isOf(Blocks.DEEPSLATE_EMERALD_ORE);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("tooltip.myfirstmod.metal_detector"));
+        super.appendTooltip(stack, world, tooltip, context);
     }
 }
