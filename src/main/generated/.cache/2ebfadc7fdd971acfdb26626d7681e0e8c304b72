@@ -1,0 +1,8 @@
+// 1.20.1	2024-07-25T16:31:33.215414656	My First Mod/Block Loot Tables
+f5e372b31d0db7f8ce80c944e50cef91e3229576 data/myfirstmod/loot_tables/blocks/ruby_ore.json
+e74db860f086ed0acabdb568fb7530f9e806a45e data/myfirstmod/loot_tables/blocks/deepslate_ruby_ore.json
+f11fe3547cf9873a08f2177c37434737b1ce1e32 data/myfirstmod/loot_tables/blocks/nether_ruby_ore.json
+7adaeec79a1aa303a53bc681531fb81db0b2d7a1 data/myfirstmod/loot_tables/blocks/end_stone_ruby_ore.json
+2e5a44118d548d24ae85cbc47f30be4703711e66 data/myfirstmod/loot_tables/blocks/ruby_block.json
+eaf4c6967fa0294920458e46648c8e35ef246837 data/myfirstmod/loot_tables/blocks/sound_block.json
+b6a55a63bff4488f976e1cb7df213f7f591927c6 data/myfirstmod/loot_tables/blocks/raw_ruby_block.json

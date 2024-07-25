@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "myfirstmod:raw_ruby_block",
+    "myfirstmod:ruby_ore",
+    "myfirstmod:deepslate_ruby_ore"
+  ]
+}

@@ -1,0 +1,7 @@
+// 1.20.1	2024-07-25T16:31:33.215162008	My First Mod/Tags for minecraft:block
+77a26e453ce232393d0261b526021053282744dc data/minecraft/tags/blocks/needs_iron_tool.json
+a8ae3cff2a3dfe7bf1845de4e623c718895550eb data/minecraft/tags/blocks/mineable/pickaxe.json
+82e40f2c60c2b3a4356f196051161c9ec01fa12a data/myfirstmod/tags/blocks/metal_detector_detectable_blocks.json
+edd5b93ef2249da986877b55c274e147f0345702 data/minecraft/tags/blocks/needs_diamond_tool.json
+ba90126b368ddf04d636fe336c0c2a4653ad38b7 data/fabric/tags/blocks/needs_tool_level_4.json
+804a0fe241d18940e8569bc69c5db67c5a2b84aa data/minecraft/tags/blocks/needs_stone_tool.json

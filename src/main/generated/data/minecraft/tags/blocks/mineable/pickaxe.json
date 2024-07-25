@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "myfirstmod:raw_ruby_block",
+    "myfirstmod:ruby_block",
+    "myfirstmod:ruby_ore",
+    "myfirstmod:nether_ruby_ore",
+    "myfirstmod:end_stone_ruby_ore",
+    "myfirstmod:sound_block",
+    "myfirstmod:deepslate_ruby_ore"
+  ]
+}

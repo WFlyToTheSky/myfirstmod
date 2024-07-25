@@ -2,7 +2,6 @@ package net.wflytothesky.myfirstmod.item.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -14,7 +13,6 @@ import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.wflytothesky.myfirstmod.block.ModBlocks;
 import net.wflytothesky.myfirstmod.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
@@ -33,14 +31,14 @@ public class MetalDetectorItem extends Item {
             //boolean foundBlock = false;
 
             for (int i = 0; i <= positionClicked.getY() + 64; i++) {
-                BlockState state= context.getWorld().getBlockState(positionClicked.down(i));
+                BlockState state = context.getWorld().getBlockState(positionClicked.down(i));
 
                 if(isValuableBlock(state)) {
-                  //  outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
-                    // foundBlock = true;
+                  //outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
+                     //foundBlock = true;
 
                     float volume = (100 / (float) i) / 50;
-                    // player.sendMessage(Text.literal(String.valueOf((volume))), true);
+                    //player.sendMessage(Text.literal(String.valueOf((volume))), true);
                     player.playSound(SoundEvents.BLOCK_NOTE_BLOCK_CHIME.value(), SoundCategory.PLAYERS, volume, 1f);
 
                     break;
@@ -53,7 +51,6 @@ public class MetalDetectorItem extends Item {
                 context.getWorld().playSound(player, positionClicked, SoundEvents.BLOCK_NOTE_BLOCK_SNARE.value(), SoundCategory.PLAYERS, 1f, 1f);
             }
 */
-
 
            // context.getStack().damage(1, context.getPlayer(),
              //       playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
