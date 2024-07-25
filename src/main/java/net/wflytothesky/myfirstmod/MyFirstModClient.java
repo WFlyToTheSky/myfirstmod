@@ -1,10 +1,14 @@
 package net.wflytothesky.myfirstmod;
 
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
+import net.wflytothesky.myfirstmod.block.ModBlocks;
 
 public class MyFirstModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RUBY_DOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RUBY_TRAPDOOR, RenderLayer.getCutout());
     }
 }

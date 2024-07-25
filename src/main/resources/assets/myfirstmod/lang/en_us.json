@@ -13,6 +13,18 @@
 
   "block.myfirstmod.sound_block": "Sound Block",
 
+
+  "block.myfirstmod.ruby_stairs": "Ruby Stairs",
+  "block.myfirstmod.ruby_slab": "Ruby Slab",
+  "block.myfirstmod.ruby_button": "Ruby Button",
+  "block.myfirstmod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.myfirstmod.ruby_fence": "Ruby Fence",
+  "block.myfirstmod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.myfirstmod.ruby_wall": "Ruby Wall",
+  "block.myfirstmod.ruby_door": "Ruby Door",
+  "block.myfirstmod.ruby_trapdoor": "Ruby Trapdoor",
+
+
   "block.myfirstmod.ruby_ore": "Ruby Ore",
   "block.myfirstmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.myfirstmod.nether_ruby_ore": "Nether Ruby Ore",

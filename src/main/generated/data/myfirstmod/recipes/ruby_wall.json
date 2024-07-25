@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "myfirstmod:ruby"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "   "
+  ],
+  "result": {
+    "item": "myfirstmod:ruby_wall"
+  },
+  "show_notification": true
+}
