@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "redstone",
   "key": {
     "#": {
       "item": "myfirstmod:ruby"
     }
   },
   "pattern": [
-    "   ",
     "###",
     "###"
   ],
   "result": {
+    "count": 2,
     "item": "myfirstmod:ruby_trapdoor"
   },
   "show_notification": true

@@ -1,10 +1,10 @@
-// 1.20.1	2024-07-25T18:27:38.679959861	My First Mod/Block Loot Tables
+// 1.20.1	2024-07-25T18:42:31.97165445	My First Mod/Block Loot Tables
 e5d59803945ea66006ae5f3cecafd156496ed1e3 data/myfirstmod/loot_tables/blocks/ruby_pressure_plate.json
 e74db860f086ed0acabdb568fb7530f9e806a45e data/myfirstmod/loot_tables/blocks/deepslate_ruby_ore.json
 7adaeec79a1aa303a53bc681531fb81db0b2d7a1 data/myfirstmod/loot_tables/blocks/end_stone_ruby_ore.json
 3c2a59a2e2b13044d93c15c30c539f85f9fa7dd3 data/myfirstmod/loot_tables/blocks/ruby_slab.json
-eaf4c6967fa0294920458e46648c8e35ef246837 data/myfirstmod/loot_tables/blocks/sound_block.json
 b90c357c83cf23c571b99bf878d369d106c5b882 data/myfirstmod/loot_tables/blocks/ruby_button.json
+eaf4c6967fa0294920458e46648c8e35ef246837 data/myfirstmod/loot_tables/blocks/sound_block.json
 8bf8ae4428c772c5b9cea0b96769e76021f74ae4 data/myfirstmod/loot_tables/blocks/ruby_fence_gate.json
 f5e372b31d0db7f8ce80c944e50cef91e3229576 data/myfirstmod/loot_tables/blocks/ruby_ore.json
 0c32e97b7bac6605b03752c37ee422f4104fc45d data/myfirstmod/loot_tables/blocks/ruby_door.json

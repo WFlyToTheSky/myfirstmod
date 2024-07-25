@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-25T18:27:38.67798445	My First Mod/Model Definitions
+// 1.20.1	2024-07-25T18:42:31.969254166	My First Mod/Model Definitions
 5d0e318dbb5dae452e8ff30d342b8744ad092059 assets/myfirstmod/models/item/deepslate_ruby_ore.json
 d866e75662c4348ddbb4a6e6f2f6d854fb4d62f5 assets/myfirstmod/models/block/ruby_button_pressed.json
 ba43a1fbc0f01b1f116a69af933542cfed01760a assets/myfirstmod/models/item/ruby_block.json
@@ -6,8 +6,8 @@ ba43a1fbc0f01b1f116a69af933542cfed01760a assets/myfirstmod/models/item/ruby_bloc
 8bc64beff41872ce72e207c010fc50723458aeaa assets/myfirstmod/models/block/ruby_door_top_right.json
 7cf472952e7c8d2f59d24f2038456bbbe0559c3b assets/myfirstmod/models/block/ruby_door_bottom_right.json
 8ed5f668c301093f4bf02ff6e4006414dac7cb2b assets/myfirstmod/blockstates/ruby_fence.json
-edb410c5d4894b5f493be9a0142a553f9fadc9e3 assets/myfirstmod/models/block/deepslate_ruby_ore.json
 3f1eb346d44f73a4f9ad64c458fd0ec80f2e6d2f assets/myfirstmod/models/block/ruby_wall_side.json
+edb410c5d4894b5f493be9a0142a553f9fadc9e3 assets/myfirstmod/models/block/deepslate_ruby_ore.json
 8a041a805de4d45ddaec8e0a07bf1a124f126609 assets/myfirstmod/models/item/metal_detector.json
 a36e7a8b4f694e7ecdd37ccbfbb261fc4734485e assets/myfirstmod/models/block/ruby_fence_gate_open.json
 87aa9034cdbc662f50298652507380c12e777c04 assets/myfirstmod/blockstates/ruby_fence_gate.json
@@ -41,9 +41,9 @@ b8bd0af875d390fb5a1f5de06f69aa37fcb334ee assets/myfirstmod/blockstates/deepslate
 5f26d1f0755e6a6cb04f2399cba7ed6b13a57ebd assets/myfirstmod/blockstates/raw_ruby_block.json
 3571fecf66672929861ac5c60470a7cfd5a957d5 assets/myfirstmod/models/block/ruby_block.json
 88c7f73646115584559cc64721da2e102c84a712 assets/myfirstmod/models/block/ruby_fence_post.json
-d8b562592993181191e54d8a5c7521abdd72179f assets/myfirstmod/models/block/ruby_trapdoor_open.json
-d33c9fe780cd6767076e4a861cdba93b6d94f9ff assets/myfirstmod/models/block/ruby_door_bottom_right_open.json
 842825bb123752d77f4657584b3b68da7019af40 assets/myfirstmod/blockstates/ruby_wall.json
+d33c9fe780cd6767076e4a861cdba93b6d94f9ff assets/myfirstmod/models/block/ruby_door_bottom_right_open.json
+d8b562592993181191e54d8a5c7521abdd72179f assets/myfirstmod/models/block/ruby_trapdoor_open.json
 79a6b49b0d3e16564fca26af5b914fb73dbfd444 assets/myfirstmod/models/item/ruby_button.json
 64653040c529c10b160b2ddc16559d7aff04c34d assets/myfirstmod/models/item/ruby_wall.json
 a785a2707ebd85bb895e423fcf5fcbb3964023cd assets/myfirstmod/models/block/ruby_fence_gate_wall.json
