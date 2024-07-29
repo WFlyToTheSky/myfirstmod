@@ -1,5 +1,6 @@
-// 1.20.1	2024-07-25T18:42:31.966414577	My First Mod/Recipes
+// 1.20.1	2024-07-29T13:10:03.99123077	My First Mod/Recipes
 c81cf4c5d86ad70594c410e9db1001d4ea2dec26 data/myfirstmod/advancements/recipes/misc/ruby_from_smelting_raw_ruby.json
+a653e1d18a04d0c2c9f8a8a210f335d1a3952dcd data/myfirstmod/recipes/ruby_staff.json
 555b01da3cec876837ba2787da9ba4dbd177e414 data/myfirstmod/recipes/ruby_fence.json
 87b90af9c187b4859b5136e8e001bce92d34c658 data/myfirstmod/recipes/ruby.json
 46829397e404755462a9137ba9028fad59a0a517 data/myfirstmod/advancements/recipes/building_blocks/ruby_slab.json
@@ -32,6 +33,7 @@ e17a4d30367f30c1495382c363e8b77c5386c2be data/myfirstmod/advancements/recipes/de
 e48c0405a01555062d9e7667be7b95c7ecfe9fa6 data/myfirstmod/advancements/recipes/building_blocks/raw_ruby.json
 fc66aa33e1945235c1161485916e2a8055140778 data/myfirstmod/advancements/recipes/building_blocks/ruby_stairs.json
 74f8bb748c77b25cf92fac8becccc42f8e076e25 data/myfirstmod/recipes/ruby_wall.json
+27f662ade6a6cb543bd5d329946bcc038e98d168 data/myfirstmod/advancements/recipes/tools/ruby_staff.json
 24273d016504ebb951dd1aeee84b68499d64f490 data/myfirstmod/advancements/recipes/building_blocks/ruby_button.json
 d5678d833f8eeeded2104df7bf26bd46dc1ebbe8 data/myfirstmod/recipes/ruby_from_blasting_deepslate_ruby_ore.json
 b18252c77ffa922648828f172ea33c2652352ec5 data/myfirstmod/recipes/ruby_from_smelting_raw_ruby.json

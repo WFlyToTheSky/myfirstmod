@@ -52,6 +52,9 @@ public class ModItemGroups {
                         // Advanced Items
                         entries.add(ModItems.METAL_DETECTOR);
 
+                        entries.add(ModItems.RUBY_STAFF);
+
+
                     }).build());
 
     public static void registerItemGroups() {

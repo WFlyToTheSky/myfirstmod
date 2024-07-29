@@ -50,6 +50,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.METAL_DETECTOR)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_STAFF, 1)
+                .pattern("  R")
+                .pattern(" T ")
+                .pattern("B  ")
+                .input('R', ModItems.RUBY)
+                .input('T', Items.TNT)
+                .input('B', Items.BLAZE_ROD)
+                .criterion(hasItem(Items.BLAZE_ROD), conditionsFromItem(Items.BLAZE_ROD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_STAFF)));
+
 
 
         createStairsRecipe(ModBlocks.RUBY_STAIRS, Ingredient.ofItems(ModItems.RUBY))
