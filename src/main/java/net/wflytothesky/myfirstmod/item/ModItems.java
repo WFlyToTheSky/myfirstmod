@@ -19,15 +19,25 @@ public class ModItems {
 
     // Tools
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
-            new PickaxeItem(ModToolMaterial.RUBY, 2, 2f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterials.RUBY, 2, 2f, new FabricItemSettings()));
     public static final Item RUBY_AXE = registerItem("ruby_axe",
-            new AxeItem(ModToolMaterial.RUBY, 4, 3f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterials.RUBY, 4, 3f, new FabricItemSettings()));
     public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
-            new ShovelItem(ModToolMaterial.RUBY, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterials.RUBY, 1, 1f, new FabricItemSettings()));
     public static final Item RUBY_SWORD = registerItem("ruby_sword",
-            new SwordItem(ModToolMaterial.RUBY, 3, 3f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterials.RUBY, 3, 3f, new FabricItemSettings()));
     public static final Item RUBY_HOE = registerItem("ruby_hoe",
-            new HoeItem(ModToolMaterial.RUBY, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterials.RUBY, 1, 1f, new FabricItemSettings()));
+
+    // Armor
+    public static final Item RUBY_HELMET = registerItem("ruby_helmet",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     // Food Items
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
