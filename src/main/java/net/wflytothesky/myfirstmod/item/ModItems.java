@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.wflytothesky.myfirstmod.MyFirstMod;
 import net.wflytothesky.myfirstmod.item.custom.MetalDetectorItem;
+import net.wflytothesky.myfirstmod.item.custom.ModArmorItem;
 import net.wflytothesky.myfirstmod.item.custom.RubyStaffItem;
 
 public class ModItems {
@@ -31,7 +32,7 @@ public class ModItems {
 
     // Armor
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
-            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
