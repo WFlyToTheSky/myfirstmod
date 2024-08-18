@@ -34,6 +34,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_DOOR);
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
 
+                        // Advanced Blocks
+                        entries.add(ModBlocks.SOUND_BLOCK);
+
                         // Ores
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
@@ -46,12 +49,15 @@ public class ModItemGroups {
                         // Fuel Items
                         entries.add(ModItems.COAL_BRIQUETTE);
 
-                        // Advanced Blocks
-                        entries.add(ModBlocks.SOUND_BLOCK);
+                        // Tools
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_HOE);
 
                         // Advanced Items
                         entries.add(ModItems.METAL_DETECTOR);
-
                         entries.add(ModItems.RUBY_STAFF);
 
 
