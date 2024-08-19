@@ -11,6 +11,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.wflytothesky.myfirstmod.MyFirstMod;
+import net.wflytothesky.myfirstmod.block.custom.CornCropBlock;
 import net.wflytothesky.myfirstmod.block.custom.SoundBlock;
 import net.wflytothesky.myfirstmod.block.custom.TomatoCropBlock;
 
@@ -58,6 +59,9 @@ public class ModBlocks {
 
     public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(MyFirstMod.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
+    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(MyFirstMod.MOD_ID, "corn_crop"),
+            new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
