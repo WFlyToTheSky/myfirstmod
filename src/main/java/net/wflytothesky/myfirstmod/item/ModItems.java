@@ -43,6 +43,8 @@ public class ModItems {
 
     // Food Items
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item CORN = registerItem("corn",
+            new Item(new FabricItemSettings()));
 
     // Fuel Items
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",
@@ -57,6 +59,8 @@ public class ModItems {
     // Seeds
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
             new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+    public static final Item CORN_SEEDS = registerItem("corn_seeds",
+            new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

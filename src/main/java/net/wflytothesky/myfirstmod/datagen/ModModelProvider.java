@@ -7,6 +7,7 @@ import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
 import net.wflytothesky.myfirstmod.block.ModBlocks;
+import net.wflytothesky.myfirstmod.block.custom.CornCropBlock;
 import net.wflytothesky.myfirstmod.block.custom.TomatoCropBlock;
 import net.wflytothesky.myfirstmod.item.ModItems;
 
@@ -39,6 +40,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTrapdoor(ModBlocks.RUBY_TRAPDOOR);
 
         blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.CORN_CROP, CornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7, 8);
 
     }
 
@@ -58,6 +60,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.CORN, Models.GENERATED);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_CHESTPLATE));
