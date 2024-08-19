@@ -46,6 +46,9 @@ public class ModItemGroups {
                         // Food Items
                         entries.add(ModItems.TOMATO);
 
+                        // Seeds
+                        entries.add(ModItems.TOMATO_SEEDS);
+
                         // Fuel Items
                         entries.add(ModItems.COAL_BRIQUETTE);
 

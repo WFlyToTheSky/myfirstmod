@@ -8,6 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.wflytothesky.myfirstmod.MyFirstMod;
+import net.wflytothesky.myfirstmod.block.ModBlocks;
 import net.wflytothesky.myfirstmod.item.custom.MetalDetectorItem;
 import net.wflytothesky.myfirstmod.item.custom.ModArmorItem;
 import net.wflytothesky.myfirstmod.item.custom.RubyStaffItem;
@@ -52,6 +53,10 @@ public class ModItems {
             new MetalDetectorItem(new FabricItemSettings().maxDamage((64))));
     public static final Item RUBY_STAFF = registerItem("ruby_staff",
             new RubyStaffItem(new FabricItemSettings().maxCount(1)));
+
+    // Seeds
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

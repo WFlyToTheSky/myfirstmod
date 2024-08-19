@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.wflytothesky.myfirstmod.MyFirstMod;
 import net.wflytothesky.myfirstmod.block.custom.SoundBlock;
+import net.wflytothesky.myfirstmod.block.custom.TomatoCropBlock;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -54,6 +55,9 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(1.5f), UniformIntProvider.create(3, 6)));
     public static final Block END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f), UniformIntProvider.create(5, 7)));
+
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(MyFirstMod.MOD_ID, "tomato_crop"),
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
