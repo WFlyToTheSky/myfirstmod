@@ -51,6 +51,9 @@ public class ModItemGroups {
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.CORN_SEEDS);
 
+                        // Flowers
+                        entries.add(ModBlocks.DAHLIA);
+
                         // Fuel Items
                         entries.add(ModItems.COAL_BRIQUETTE);
 

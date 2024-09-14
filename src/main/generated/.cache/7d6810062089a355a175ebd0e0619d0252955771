@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-19T20:07:18.266189254	My First Mod/Recipes
+// 1.20.1	2024-09-14T11:34:13.20455372	My First Mod/Recipes
 c81cf4c5d86ad70594c410e9db1001d4ea2dec26 data/myfirstmod/advancements/recipes/misc/ruby_from_smelting_raw_ruby.json
 a653e1d18a04d0c2c9f8a8a210f335d1a3952dcd data/myfirstmod/recipes/ruby_staff.json
 b14d0b82b12375d08e6762dd8940c524d5f5d65d data/myfirstmod/recipes/ruby_sword.json
@@ -57,5 +57,5 @@ e6cd395e87f280209fec90381860d5002f292295 data/myfirstmod/advancements/recipes/de
 29c97a26070f8b397b67d82da6f1ecc5dec8ed4c data/myfirstmod/advancements/recipes/redstone/ruby_trapdoor.json
 0ff6b14bd77b20e32150092e41a943318431217d data/myfirstmod/recipes/ruby_hoe.json
 cc160d01172e047f41ebb89a3cd5f1aab34a6a0b data/myfirstmod/recipes/ruby_from_blasting_end_stone_ruby_ore.json
-50d8a92a8c21605937e4a507fa4dc2eabdddca12 data/myfirstmod/recipes/ruby_from_blasting_ruby_ore.json
 87d20549f377704033e8603753b311ac32efc2c7 data/myfirstmod/advancements/recipes/misc/ruby_from_smelting_nether_ruby_ore.json
+50d8a92a8c21605937e4a507fa4dc2eabdddca12 data/myfirstmod/recipes/ruby_from_blasting_ruby_ore.json
