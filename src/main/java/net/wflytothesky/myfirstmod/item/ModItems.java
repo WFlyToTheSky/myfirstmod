@@ -42,9 +42,12 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     // Food Items
-    public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item TOMATO = registerItem("tomato",
+            new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item CORN = registerItem("corn",
             new Item(new FabricItemSettings()));
+    public static final Item POPCORN_BUCKET = registerItem("popcorn_bucket",
+            new Item(new FabricItemSettings().food(ModFoodComponents.POPCORN_BUCKET)));
 
     // Fuel Items
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",

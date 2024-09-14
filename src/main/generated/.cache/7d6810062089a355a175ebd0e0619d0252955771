@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-14T11:34:13.20455372	My First Mod/Recipes
+// 1.20.1	2024-09-14T12:29:37.590253166	My First Mod/Recipes
 c81cf4c5d86ad70594c410e9db1001d4ea2dec26 data/myfirstmod/advancements/recipes/misc/ruby_from_smelting_raw_ruby.json
 a653e1d18a04d0c2c9f8a8a210f335d1a3952dcd data/myfirstmod/recipes/ruby_staff.json
 b14d0b82b12375d08e6762dd8940c524d5f5d65d data/myfirstmod/recipes/ruby_sword.json
@@ -15,6 +15,7 @@ f0b561943e3e651c1b9b01e2b2fad28b74d01d77 data/myfirstmod/recipes/ruby_button.jso
 bb5b58c2d471556d2486463c2ed6ee25d44ba55e data/myfirstmod/advancements/recipes/misc/ruby_from_blasting_raw_ruby.json
 c2717674431335dd27ee0430972cf23a9a65eb13 data/myfirstmod/recipes/ruby_pressure_plate.json
 6faf9b878e701fb7c33490281e4d3c9dd6057016 data/myfirstmod/recipes/metal_detector.json
+7a5188c17127f004ed6cbf56e06f28927d3fef14 data/myfirstmod/advancements/recipes/food/popcorn_bucket_from_smelting_corn.json
 8dcd843d2a10374fd25058fc176f24fafb4dfa95 data/myfirstmod/recipes/ruby_from_smelting_ruby_ore.json
 c387ab74593a473237e1ea1748c3c96b0fa052ff data/myfirstmod/recipes/ruby_from_smelting_end_stone_ruby_ore.json
 a80f3e24ef0a3db4bf9667f94168b4a029dd8f50 data/myfirstmod/advancements/recipes/building_blocks/ruby.json
@@ -35,6 +36,7 @@ de036567061bcd4331e7de486b218ca22cd29cd5 data/myfirstmod/advancements/recipes/to
 34e9040465bfef8351bcd2b9afdebb408226ecc5 data/myfirstmod/recipes/ruby_from_smelting_nether_ruby_ore.json
 8bdcb43b6b19a7374f83798c16e45846b7dbd728 data/myfirstmod/recipes/ruby_pickaxe.json
 15ca65b104cf6ad0e1b04d1415589ed7aa17f2f6 data/myfirstmod/advancements/recipes/building_blocks/ruby_wall.json
+a21df7aa3e73c8c83460f3a0d1a12c1094a8bdef data/myfirstmod/recipes/popcorn_bucket_from_smelting_corn.json
 e17a4d30367f30c1495382c363e8b77c5386c2be data/myfirstmod/advancements/recipes/decorations/ruby_block.json
 f4d2b0cf3d837d43eef490f9a37feac694ca16e7 data/myfirstmod/advancements/recipes/tools/ruby_hoe.json
 e48c0405a01555062d9e7667be7b95c7ecfe9fa6 data/myfirstmod/advancements/recipes/building_blocks/raw_ruby.json

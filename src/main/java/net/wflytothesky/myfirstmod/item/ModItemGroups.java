@@ -46,6 +46,7 @@ public class ModItemGroups {
                         // Food Items
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.CORN);
+                        entries.add(ModItems.POPCORN_BUCKET);
 
                         // Seeds
                         entries.add(ModItems.TOMATO_SEEDS);

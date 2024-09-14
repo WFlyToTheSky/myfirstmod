@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 250,
+  "experience": 0.2,
+  "group": "popcorn_bucket",
+  "ingredient": {
+    "item": "myfirstmod:corn"
+  },
+  "result": "myfirstmod:popcorn_bucket"
+}

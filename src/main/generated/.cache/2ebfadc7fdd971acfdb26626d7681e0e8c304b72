@@ -1,6 +1,6 @@
-// 1.20.1	2024-09-14T11:34:13.21075304	My First Mod/Block Loot Tables
-e5d59803945ea66006ae5f3cecafd156496ed1e3 data/myfirstmod/loot_tables/blocks/ruby_pressure_plate.json
+// 1.20.1	2024-09-14T12:29:37.596456213	My First Mod/Block Loot Tables
 e74db860f086ed0acabdb568fb7530f9e806a45e data/myfirstmod/loot_tables/blocks/deepslate_ruby_ore.json
+e5d59803945ea66006ae5f3cecafd156496ed1e3 data/myfirstmod/loot_tables/blocks/ruby_pressure_plate.json
 7adaeec79a1aa303a53bc681531fb81db0b2d7a1 data/myfirstmod/loot_tables/blocks/end_stone_ruby_ore.json
 3c2a59a2e2b13044d93c15c30c539f85f9fa7dd3 data/myfirstmod/loot_tables/blocks/ruby_slab.json
 b90c357c83cf23c571b99bf878d369d106c5b882 data/myfirstmod/loot_tables/blocks/ruby_button.json
@@ -15,7 +15,7 @@ f11fe3547cf9873a08f2177c37434737b1ce1e32 data/myfirstmod/loot_tables/blocks/neth
 6c08ab16fa8ddb17655d3748ff9ba5f7e37afe0b data/myfirstmod/loot_tables/blocks/potted_dahlia.json
 f8d47ab2f42884efe3d1c878c3bf2e93ef9d8240 data/myfirstmod/loot_tables/blocks/ruby_trapdoor.json
 dcad81b6bf45dda5595f0a899eb216b4e5e81060 data/myfirstmod/loot_tables/blocks/ruby_stairs.json
-1e1b887b7b0b367fe43dacd612fb83dd5c053729 data/myfirstmod/loot_tables/blocks/ruby_wall.json
 c2f4d5b0731ddfce6a0877f96afb4da04fc838da data/myfirstmod/loot_tables/blocks/tomato_crop.json
+1e1b887b7b0b367fe43dacd612fb83dd5c053729 data/myfirstmod/loot_tables/blocks/ruby_wall.json
 8cc45e4044f845ba397f260b277dfdb81c9eced6 data/myfirstmod/loot_tables/blocks/ruby_fence.json
 b6a55a63bff4488f976e1cb7df213f7f591927c6 data/myfirstmod/loot_tables/blocks/raw_ruby_block.json

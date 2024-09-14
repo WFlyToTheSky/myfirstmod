@@ -35,6 +35,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerBlasting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY,
                 0.7f, 200, "ruby");
 
+        offerSmelting(exporter, List.of(ModItems.CORN), RecipeCategory.FOOD, ModItems.POPCORN_BUCKET,
+                0.2f, 250, "popcorn_bucket");
+
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RUBY, RecipeCategory.DECORATIONS,
                 ModBlocks.RUBY_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_RUBY, RecipeCategory.DECORATIONS,

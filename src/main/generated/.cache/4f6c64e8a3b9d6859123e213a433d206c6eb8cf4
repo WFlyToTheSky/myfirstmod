@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-14T11:34:13.207310238	My First Mod/Model Definitions
+// 1.20.1	2024-09-14T12:29:37.593365919	My First Mod/Model Definitions
 47990b76f8b8a4027382ff4857a3995a41f5bbcf assets/myfirstmod/models/block/corn_crop_stage8.json
 ba43a1fbc0f01b1f116a69af933542cfed01760a assets/myfirstmod/models/item/ruby_block.json
 dbf396e096174515fa5f767637bd9672343b23d6 assets/myfirstmod/models/item/ruby_chestplate_gold_trim.json
@@ -41,8 +41,8 @@ c509a5543e0992436f0f1c3776c38f7a3e96ed9f assets/myfirstmod/models/item/ruby_ches
 f586f7d951b8c9d7f9226fce8b3351a9b3123211 assets/myfirstmod/models/item/coal_briquette.json
 c0a7daa9798f889d5b27805e702e09d754ad1270 assets/myfirstmod/models/item/ruby_helmet_netherite_trim.json
 88c7f73646115584559cc64721da2e102c84a712 assets/myfirstmod/models/block/ruby_fence_post.json
-40e3c6079f12180bc8996fdc3ec6c9e9fd22fcd7 assets/myfirstmod/models/item/corn.json
 842825bb123752d77f4657584b3b68da7019af40 assets/myfirstmod/blockstates/ruby_wall.json
+40e3c6079f12180bc8996fdc3ec6c9e9fd22fcd7 assets/myfirstmod/models/item/corn.json
 64653040c529c10b160b2ddc16559d7aff04c34d assets/myfirstmod/models/item/ruby_wall.json
 2eb87c88745953d3cd9c2da4f5be4db6aa184ee8 assets/myfirstmod/models/block/corn_crop_stage5.json
 a785a2707ebd85bb895e423fcf5fcbb3964023cd assets/myfirstmod/models/block/ruby_fence_gate_wall.json
@@ -77,9 +77,10 @@ a5170297df6e23913bbb92c178180daab7f39f2e assets/myfirstmod/models/block/ruby_doo
 e33e10807ecff10efc446bf5497f3773fc3233fd assets/myfirstmod/models/block/ruby_door_top_right_open.json
 73166bef86f0a353864592cc79b8bed274c5cd8b assets/myfirstmod/models/item/ruby_boots_emerald_trim.json
 5d0e318dbb5dae452e8ff30d342b8744ad092059 assets/myfirstmod/models/item/deepslate_ruby_ore.json
-e9d4c9b3e24f2b31d39de225d901577306c43223 assets/myfirstmod/models/item/ruby_chestplate.json
 d866e75662c4348ddbb4a6e6f2f6d854fb4d62f5 assets/myfirstmod/models/block/ruby_button_pressed.json
+e9d4c9b3e24f2b31d39de225d901577306c43223 assets/myfirstmod/models/item/ruby_chestplate.json
 4525bca40305fd17f4db42c0098587ae4acc63bd assets/myfirstmod/models/block/corn_crop_stage2.json
+681d09bc2c3892d0deeed962e4e45883dbc25312 assets/myfirstmod/models/item/popcorn_bucket.json
 437b03b33dbdfd604a87a27ccf8d6c4782368fee assets/myfirstmod/models/item/ruby_leggings_amethyst_trim.json
 06307eecddca4fec595e4c158f1cb0dbe4ffa223 assets/myfirstmod/models/block/corn_crop_stage1.json
 b9fbdea495931ee6b2f572078b29753bbb8f5b4d assets/myfirstmod/models/item/ruby_helmet_diamond_trim.json
@@ -119,8 +120,8 @@ fdee9153308693c86007ab26f4bfef22cb37fbda assets/myfirstmod/models/item/corn_seed
 b8bd0af875d390fb5a1f5de06f69aa37fcb334ee assets/myfirstmod/blockstates/deepslate_ruby_ore.json
 5f26d1f0755e6a6cb04f2399cba7ed6b13a57ebd assets/myfirstmod/blockstates/raw_ruby_block.json
 3571fecf66672929861ac5c60470a7cfd5a957d5 assets/myfirstmod/models/block/ruby_block.json
-d8b562592993181191e54d8a5c7521abdd72179f assets/myfirstmod/models/block/ruby_trapdoor_open.json
 d33c9fe780cd6767076e4a861cdba93b6d94f9ff assets/myfirstmod/models/block/ruby_door_bottom_right_open.json
+d8b562592993181191e54d8a5c7521abdd72179f assets/myfirstmod/models/block/ruby_trapdoor_open.json
 79a6b49b0d3e16564fca26af5b914fb73dbfd444 assets/myfirstmod/models/item/ruby_button.json
 f6c6565d3b19d1bcd861e4aeccd64b8ad1bdb677 assets/myfirstmod/models/item/ruby_slab.json
 8760efaf7b812c96fb1a75739aca0f8580bcc9bb assets/myfirstmod/models/item/ruby_leggings_gold_trim.json
