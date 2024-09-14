@@ -6,6 +6,7 @@ import net.wflytothesky.myfirstmod.block.ModBlocks;
 import net.wflytothesky.myfirstmod.item.ModFuelRegistry;
 import net.wflytothesky.myfirstmod.item.ModItemGroups;
 import net.wflytothesky.myfirstmod.item.ModItems;
+import net.wflytothesky.myfirstmod.util.ModCustomTrades;
 import net.wflytothesky.myfirstmod.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,8 +23,10 @@ public class MyFirstMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		ModLootTableModifiers.modifyLootTables();
-
 		ModFuelRegistry.registerModFuel();
+
+		ModCustomTrades.registerCustomTrades();
+
+		ModLootTableModifiers.modifyLootTables();
 	}
 }
